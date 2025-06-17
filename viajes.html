@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Viajes de Buceo Vida a Bordo (Liveaboard) | Mar Rojo | Buceo Javier</title>
-    <meta name="description" content="Embárcate en una aventura inolvidable con nuestros viajes de vida a bordo por el Mar Rojo. Explora rutas legendarias como la Norte y Pecios o la Sur (B.D.E.) con Buceo Javier.">
+    <title>Viajes de Vida a Bordo | La Experiencia Completa | Buceo Javier</title>
+    <meta name="description" content="Descubre la experiencia total de un vida a bordo con Buceo Javier: camarotes de lujo, gastronomía, guías expertos y acceso a los pecios y arrecifes más remotos del Mar Rojo.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -27,55 +28,14 @@
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": "Viajes de Vida a Bordo - Buceo Javier",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Trip",
-            "name": "Ruta Norte y Pecios",
-            "description": "Un viaje de 7 noches para explorar los pecios más famosos del mundo, incluyendo el SS Thistlegorm, y los arrecifes del Parque Nacional Ras Mohammed.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Buceo Javier"
-            },
-            "itinerary": {
-              "@type": "ItemList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "item": { "@type": "Place", "name": "Parque Nacional Ras Mohammed" }},
-                { "@type": "ListItem", "position": 2, "item": { "@type": "Place", "name": "Pecio SS Thistlegorm" }},
-                { "@type": "ListItem", "position": 3, "item": { "@type": "Place", "name": "Estrechos de Tirán" }}
-              ]
-            }
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Trip",
-            "name": "Ruta Sur (B.D.E.)",
-            "description": "Una ruta para buceadores avanzados en busca de grandes pelágicos. Visita las islas Brothers, Daedalus y Elphinstone.",
-            "provider": {
-              "@type": "Organization",
-              "name": "Buceo Javier"
-            },
-            "itinerary": {
-              "@type": "ItemList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "item": { "@type": "Place", "name": "Islas Brothers" }},
-                { "@type": "ListItem", "position": 2, "item": { "@type": "Place", "name": "Arrecife Daedalus" }},
-                { "@type": "ListItem", "position": 3, "item": { "@type": "Place", "name": "Arrecife Elphinstone" }}
-              ]
-            }
-          }
-        }
-      ]
+      "itemListElement": [ { "@type": "ListItem", "position": 1, "item": { "@type": "Trip", "name": "Ruta Norte y Pecios" } }, { "@type": "ListItem", "position": 2, "item": { "@type": "Trip", "name": "Ruta Sur (B.D.E.)" } } ]
     }
     </script>
     
     <style>
         html { scroll-behavior: smooth; }
+        .swiper-button-next, .swiper-button-prev { color: #ffffff !important; }
+        .swiper-button-next:after, .swiper-button-prev:after { font-size: 2rem !important; }
     </style>
 </head>
 <body class="bg-gray-50 font-inter text-gray-800">
@@ -103,88 +63,90 @@
                 <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
                 <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
             </div>
-            <div class="hidden lg:flex">
-                <a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a>
-            </div>
-            <div class="lg:hidden">
-                <button class="text-white focus:outline-none">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                </button>
-            </div>
+            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
+            <div class="lg:hidden"><button class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
         </nav>
     </header>
 
     <main>
-        <section class="relative bg-black text-white h-[50vh]">
-            <img src="https://images.pexels.com/photos/2285495/pexels-photo-2285495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Impresionante barco de vida a bordo navegando durante el atardecer en las tranquilas aguas del Mar Rojo" class="w-full h-full object-cover absolute inset-0 opacity-60">
-            <div class="relative container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
-                <h1 class="text-5xl md:text-6xl font-bold">Viajes de Vida a Bordo</h1>
-                <p class="mt-4 text-xl md:text-2xl">La aventura de buceo definitiva. Despierta cada día en un nuevo arrecife.</p>
+        <section class="relative h-[60vh] w-full">
+            <div class="swiper hero-slider-viajes h-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://images.pexels.com/photos/2285495/pexels-photo-2285495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Barco de vida a bordo 'El Odiseo' navegando al atardecer en el Mar Rojo."></div>
+                    <div class="swiper-slide"><img src="https://images.pexels.com/photos/8134750/pexels-photo-8134750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Grupo de buceadores felices preparándose para saltar al agua desde la plataforma del barco."></div>
+                    <div class="swiper-slide"><img src="https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Un banco de peces de colores nadando sobre un arrecife de coral vibrante y saludable."></div>
+                    <div class="swiper-slide"><img src="https://images.pexels.com/photos/166543/pexels-photo-166543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Un delfín curioso se acerca a la cámara bajo el agua en el Mar Rojo."></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-6">
+                <h1 class="text-5xl md:text-6xl font-bold">La Experiencia Vida a Bordo</h1>
+                <p class="mt-4 text-xl md:text-2xl max-w-3xl">Una semana inmerso en el paraíso, donde tu única preocupación es la próxima inmersión.</p>
             </div>
         </section>
+        
+        <div class="py-20 bg-white">
+            <div class="container mx-auto px-6 space-y-20">
 
-        <section class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-4xl font-bold text-ocean-deep">Nuestras Rutas Principales</h2>
-                    <p class="mt-4 text-lg text-gray-700">Hemos diseñado dos itinerarios legendarios para mostrarte lo mejor del Mar Rojo, ya sea que busques historia sumergida o la emoción de los grandes encuentros.</p>
-                </div>
+                <section>
+                    <h2 class="text-4xl font-bold text-ocean-deep text-center mb-12">Comodidad y Sabor en Alta Mar</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div><img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Interior de un camarote de barco limpio y luminoso con una cama hecha y una ventana redonda." class="rounded-lg shadow-xl"></div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-ocean-light mb-3">Descanso y Privacidad</h3>
+                            <p class="text-gray-700">Nuestros camarotes dobles están diseñados para tu máximo confort. Todos cuentan con aire acondicionado y baño privado, ofreciéndote un espacio íntimo y tranquilo para descansar después de un día de emociones submarinas.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                     <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="md:order-2"><img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Plato de pasta fresca con marisco servido en un restaurante con vistas al mar." class="rounded-lg shadow-xl"></div>
+                        <div class="md:order-1">
+                            <h3 class="text-2xl font-bold text-ocean-light mb-3">Gastronomía Exquisita</h3>
+                            <p class="text-gray-700">Nuestro chef a bordo prepara un menú variado y delicioso cada día, utilizando ingredientes frescos locales. Disfruta de tres comidas completas, además de snacks y bebidas disponibles todo el día para mantener tu energía al máximo.</p>
+                        </div>
+                    </div>
+                </section>
 
-                <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
-                    <div>
-                        <img src="https://images.pexels.com/photos/1083505/pexels-photo-1083505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceadores explorando las bodegas del pecio SS Thistlegorm, llenas de motocicletas y camiones de la Segunda Guerra Mundial." class="rounded-lg shadow-xl w-full h-auto">
+                <section>
+                    <h2 class="text-4xl font-bold text-ocean-deep text-center mb-12 mt-20">Tu Aventura Submarina, Optimizada</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div><img src="https://images.pexels.com/photos/732555/pexels-photo-732555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Plataforma de buceo de un barco vida a bordo con tanques de aire alineados y listos." class="rounded-lg shadow-xl"></div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-ocean-light mb-3">Acceso Directo a la Inmersión</h3>
+                            <p class="text-gray-700">Olvida cargar con el equipo. Nuestra espaciosa plataforma de buceo te da acceso directo al agua. Con 3 o 4 inmersiones programadas cada día, incluyendo emocionantes buceos nocturnos, maximizarás tu tiempo bajo el agua.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="text-3xl font-bold text-ocean-deep mb-4">Ruta Norte y Pecios: Un Viaje a la Historia</h3>
-                        <p class="text-lg text-gray-700 mb-4">La ruta perfecta para los amantes de la historia y los arrecifes vibrantes. Navegaremos por el Parque Nacional Ras Mohammed, los famosos Estrechos de Tirán y descenderemos a los pecios más espectaculares del mundo como el SS Thistlegorm.</p>
-                        <ul class="space-y-2 text-gray-800">
-                            <li><strong class="text-ocean-light">Duración:</strong> 7 noches / 6 días de buceo</li>
-                            <li><strong class="text-ocean-light">Nivel Requerido:</strong> PADI Advanced Open Water o equivalente.</li>
-                        </ul>
-                        <a href="calendario.html" class="mt-6 inline-block bg-coral-red text-white py-3 px-6 rounded-md text-lg font-semibold hover:bg-red-700 transition duration-300">Ver Calendario y Precios</a>
+                </section>
+                <section>
+                     <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="md:order-2"><img src="https://images.pexels.com/photos/8134771/pexels-photo-8134771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Guía de buceo explicando el plan de inmersión en una pizarra a un grupo de buceadores atentos." class="rounded-lg shadow-xl"></div>
+                        <div class="md:order-1">
+                            <h3 class="text-2xl font-bold text-ocean-light mb-3">Guías Expertos y Seguridad</h3>
+                            <p class="text-gray-700">La seguridad es nuestra prioridad. Nuestros guías expertos PADI realizan briefings detallados antes de cada inmersión, asegurando que conozcas el sitio, las corrientes y los puntos de interés. Bucea con la confianza de estar en las mejores manos.</p>
+                        </div>
                     </div>
-                </div>
+                </section>
 
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="md:order-2">
-                        <img src="https://images.pexels.com/photos/2418468/pexels-photo-2418468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un tiburón martillo solitario nadando en las profundidades azules de los arrecifes del sur del Mar Rojo." class="rounded-lg shadow-xl w-full h-auto">
-                    </div>
-                    <div class="md:order-1">
-                        <h3 class="text-3xl font-bold text-ocean-deep mb-4">Ruta Sur (B.D.E.): El Santuario de Pelágicos</h3>
-                        <p class="text-lg text-gray-700 mb-4">Una expedición para buceadores experimentados en busca de adrenalina. Nos adentramos en mar abierto para visitar las legendarias islas Brothers, Daedalus y Elphinstone, famosas por sus avistamientos de tiburones martillo, oceánicos y grises.</p>
-                        <ul class="space-y-2 text-gray-800">
-                            <li><strong class="text-ocean-light">Duración:</strong> 7 noches / 6 días de buceo</li>
-                            <li><strong class="text-ocean-light">Nivel Requerido:</strong> Mínimo 50 inmersiones registradas.</li>
-                        </ul>
-                        <a href="calendario.html" class="mt-6 inline-block bg-coral-red text-white py-3 px-6 rounded-md text-lg font-semibold hover:bg-red-700 transition duration-300">Ver Calendario y Precios</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-20 bg-gray-50">
-            <div class="container mx-auto px-6">
-                 <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-4xl font-bold text-ocean-deep mb-6">Nuestro Barco: "El Odiseo"</h2>
-                        <p class="text-lg text-gray-700 mb-6">
-                            Tu comodidad es parte de la aventura. "El Odiseo" está diseñado por y para buceadores. Cuenta con amplios camarotes dobles con baño privado y aire acondicionado, un enorme solárium para relajarse entre inmersiones y una plataforma de buceo espaciosa y cómoda. Nuestro chef a bordo te deleitará con una deliciosa mezcla de cocina local e internacional.
-                        </p>
-                        <a href="galeria.html" class="text-coral-red font-semibold hover:underline text-lg">Ver fotos del barco &rarr;</a>
-                    </div>
-                    <div>
-                        <img src="https://images.pexels.com/photos/164552/pexels-photo-164552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Vista lateral del 'El Odiseo', un moderno y confortable barco de vida a bordo para buceo." class="rounded-lg shadow-xl w-full h-auto">
-                    </div>
-                </div>
-            </div>
-        </section>
+                 </div>
+        </div>
 
     </main>
     
     <footer class="bg-ocean-deep text-white">
-        <div class="container mx-auto px-6 py-12">
-            </div>
+        <div class="container mx-auto px-6 py-12"> </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.hero-slider-viajes', {
+            loop: true,
+            effect: 'fade',
+            fadeEffect: { crossFade: true },
+            autoplay: { delay: 5000, disableOnInteraction: false },
+            navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        });
+    </script>
 </body>
 </html>
