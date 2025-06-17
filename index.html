@@ -3,58 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Buceo Javier | Cursos y Viajes de Buceo en el Mar Rojo</title>
     <meta name="description" content="Explora el Mar Rojo con Buceo Javier. Cursos PADI, viajes de vida a bordo inolvidables y la mejor experiencia de buceo en Egipto.">
     <meta name="keywords" content="buceo javier, buceo mar rojo, cursos padi egipto, vida a bordo mar rojo, viajes de buceo, tienda de buceo">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: {
-                        'inter': ['Inter', 'sans-serif'],
-                    },
-                    colors: {
-                        'ocean-deep': '#001F3F',
-                        'ocean-light': '#007BFF',
-                        'coral-red': '#FF4136',
-                        'sand': '#F4A261',
-                    }
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' },
+                    zIndex: { '999': 999 } // Añadimos un z-index alto para el popup
                 }
             }
         }
     </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SportsActivityLocation",
-      "name": "Buceo Javier",
-      "description": "Centro de buceo premium en Sharm El Sheikh, especializado en cursos PADI y viajes de vida a bordo en el Mar Rojo.",
-      "url": "https://www.buceojavier-example.com",
-      "telephone": "+20 123 456 7890",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Naama Bay",
-        "addressLocality": "Sharm El Sheikh",
-        "addressCountry": "EG"
-      },
-      "image": "https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg",
-      "priceRange": "$$$"
-    }
-    </script>
-
     <style>
         html { scroll-behavior: smooth; }
-        /* Estilos para el slider (igual que antes) */
         .swiper-button-next, .swiper-button-prev { color: #ffffff !important; background-color: rgba(0, 0, 0, 0.3); border-radius: 50%; width: 44px !important; height: 44px !important; }
         .swiper-button-next:after, .swiper-button-prev:after { font-size: 1.5rem !important; font-weight: bold; }
     </style>
@@ -62,54 +31,15 @@
 <body class="bg-gray-50 font-inter text-gray-800">
 
     <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
-        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="index.html" class="text-white text-3xl font-bold">
-                Buceo <span class="text-coral-red">Javier</span>
-            </a>
-            <div class="hidden lg:flex items-center space-x-6 text-lg">
-                <div class="relative group">
-                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center">
-                        Sobre Nosotros
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48">
-                        <a href="que-hacemos.html" class="block px-4 py-2 text-white hover:bg-ocean-light">Qué hacemos</a>
-                        <a href="galeria.html" class="block px-4 py-2 text-white hover:bg-ocean-light">Galería</a>
-                        <a href="testimonios.html" class="block px-4 py-2 text-white hover:bg-ocean-light">Testimonios</a>
-                    </div>
-                </div>
-
-                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
-                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
-                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
-                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
-                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
-                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
-            </div>
-            <div class="hidden lg:flex">
-                <a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a>
-            </div>
-             <div class="lg:hidden">
-                <button class="text-white focus:outline-none">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                </button>
-            </div>
-        </nav>
-    </header>
-
+        </header>
     <main>
-        <section class="relative h-[70vh] w-full">
-            </section>
-        <section class="py-20 bg-white">
-             </section>
-    </main>
-    
+        </main>
     <footer class="bg-ocean-deep text-white">
         </footer>
 
-    <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-50 transition-opacity duration-300">
+    <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-[999] transition-opacity duration-300">
         <div id="popup-content" class="bg-white rounded-lg shadow-2xl p-8 max-w-md w-11/12 transform scale-95 transition-transform duration-300 relative">
-            <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800">
+            <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
             
@@ -128,7 +58,6 @@
         </div>
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.hero-slider', { /* ... configuración del slider ... */ });
@@ -139,11 +68,13 @@
             const popupOverlay = document.getElementById('popup-overlay');
             const popupContent = document.getElementById('popup-content');
             const closePopupButton = document.getElementById('close-popup');
+            const body = document.querySelector('body'); // Seleccionamos el body
 
             // Función para mostrar el popup
             const showPopup = () => {
                 popupOverlay.classList.remove('hidden');
                 popupOverlay.classList.add('flex');
+                body.style.overflow = 'hidden'; // Evita el scroll del fondo cuando el popup está abierto
                 setTimeout(() => {
                     popupOverlay.classList.add('opacity-100');
                     popupContent.classList.remove('scale-95');
@@ -156,10 +87,11 @@
                 popupOverlay.classList.remove('opacity-100');
                 popupContent.classList.remove('scale-100');
                 popupContent.classList.add('scale-95');
+                body.style.overflow = 'auto'; // Restaura el scroll del fondo
                 setTimeout(() => {
                     popupOverlay.classList.add('hidden');
                     popupOverlay.classList.remove('flex');
-                }, 300); // Coincide con la duración de la transición
+                }, 300); 
             };
 
             // Mostrar el popup después de 5 segundos
@@ -169,6 +101,13 @@
             closePopupButton.addEventListener('click', closePopup);
             popupOverlay.addEventListener('click', (event) => {
                 if (event.target === popupOverlay) {
+                    closePopup();
+                }
+            });
+
+            // Cerrar con la tecla 'Escape'
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && !popupOverlay.classList.contains('hidden')) {
                     closePopup();
                 }
             });
