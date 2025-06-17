@@ -6,7 +6,7 @@
     
     <title>Buceo Javier | Cursos y Viajes de Buceo en el Mar Rojo</title>
     <meta name="description" content="Explora el Mar Rojo con Buceo Javier. Cursos PADI, viajes de vida a bordo inolvidables y la mejor experiencia de buceo en Egipto.">
-    <meta name="keywords" content="buceo javier, buceo mar rojo, cursos padi egipto, vida a bordo mar rojo, viajes de buceo">
+    <meta name="keywords" content="buceo javier, buceo mar rojo, cursos padi egipto, vida a bordo mar rojo, viajes de buceo, tienda de buceo">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,6 @@
 
     <style>
         html { scroll-behavior: smooth; }
-        /* Estilos para las flechas de navegación del slider */
         .swiper-button-next, .swiper-button-prev {
             color: #ffffff !important;
             background-color: rgba(0, 0, 0, 0.3);
@@ -75,14 +74,17 @@
             <a href="index.html" class="text-white text-3xl font-bold">
                 Buceo <span class="text-coral-red">Javier</span>
             </a>
-            <div class="hidden lg:flex items-center space-x-6 text-lg">
+            
+            <div class="hidden lg:flex items-center space-x-4 text-lg">
                 <a href="que-hacemos.html" class="text-white hover:text-coral-red transition duration-300">Qué hacemos</a>
                 <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
                 <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
                 <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
                 <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
                 <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
             </div>
+
             <div class="hidden lg:flex">
                 <a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a>
             </div>
@@ -143,7 +145,7 @@
             </div>
         </section>
         
-        </main>
+    </main>
 
     <footer class="bg-ocean-deep text-white">
         <div class="container mx-auto px-6 py-12">
@@ -185,7 +187,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.hero-slider', {
-            // Parámetros opcionales
             loop: true,
             effect: 'fade',
             fadeEffect: {
@@ -195,19 +196,3 @@
                 delay: 4000,
                 disableOnInteraction: false,
             },
-
-            // Paginación (puntos)
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-
-            // Botones de navegación (flechas)
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '..swiper-button-prev',
-            },
-        });
-    </script>
-</body>
-</html>
