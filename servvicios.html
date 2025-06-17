@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Servicios de Buceo | Cursos PADI y Alquiler de Equipo | Buceo Javier</title>
+    <meta name="description" content="Ofrecemos una gama completa de servicios de buceo en el Mar Rojo. Obtén tu certificación PADI, desde Open Water hasta Divemaster, o alquila nuestro equipo de alta gama.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' }
+                }
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "OfferCatalog",
+      "name": "Servicios de Buceo - Buceo Javier",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Curso PADI Open Water Diver"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Curso PADI Advanced Open Water Diver"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Alquiler de Equipo de Buceo Completo"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800">
+
+    <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-5 text-lg">
+                <div class="relative group">
+                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center">
+                        <span>Sobre Nosotros</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48">
+                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
+                        <a href="galeria.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Galería</a>
+                    </div>
+                </div>
+                <a href="servicios.html" class="text-coral-red font-semibold transition duration-300">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
+                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
+            </div>
+            <div class="hidden lg:flex">
+                <a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a>
+            </div>
+            <div class="lg:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-ocean-deep py-16 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold">Nuestros Servicios de Buceo</h1>
+                <p class="mt-4 text-xl">Calidad, seguridad y los mejores instructores a tu disposición.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-ocean-deep text-center mb-12">Cursos de Certificación PADI</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                        <img src="https://images.pexels.com/photos/8039230/pexels-photo-8039230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instructor de buceo enseñando a una alumna en aguas claras y poco profundas." class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-ocean-deep mb-2">PADI Open Water Diver</h3>
+                            <p class="text-gray-600 mb-4 flex-grow">Tu primera certificación. Aprende los fundamentos del buceo y obtén tu pasaporte para explorar el mundo submarino.</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white text-center py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Más Información</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                        <img src="https://images.pexels.com/photos/7292737/pexels-photo-7292737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceador avanzado explorando el interior de un pecio." class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-ocean-deep mb-2">PADI Advanced Open Water</h3>
+                            <p class="text-gray-600 mb-4 flex-grow">Lleva tus habilidades al siguiente nivel. Perfecciona tu flotabilidad, aprende sobre navegación submarina y explora inmersiones profundas.</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white text-center py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Más Información</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                        <img src="https://images.pexels.com/photos/8134769/pexels-photo-8134769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceador practicando una técnica de rescate con un compañero en la superficie." class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-ocean-deep mb-2">PADI Rescue Diver</h3>
+                            <p class="text-gray-600 mb-4 flex-grow">Aprende a anticipar y gestionar problemas. Un curso desafiante y gratificante que te convertirá en un mejor compañero de buceo.</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white text-center py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Más Información</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-xl overflow-hidden flex flex-col">
+                        <img src="https://images.pexels.com/photos/7695423/pexels-photo-7695423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Divemaster profesional liderando a un grupo de buceadores en un arrecife." class="w-full h-48 object-cover">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-ocean-deep mb-2">PADI Divemaster</h3>
+                            <p class="text-gray-600 mb-4 flex-grow">Da el primer paso en tu carrera como profesional del buceo. Aprende a guiar inmersiones y a asistir a instructores. El Mar Rojo será tu oficina.</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white text-center py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Más Información</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://images.pexels.com/photos/655676/pexels-photo-655676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Set completo de equipo de buceo profesional, limpio y bien organizado, listo para usar." class="rounded-lg shadow-xl w-full h-auto">
+                    </div>
+                    <div>
+                        <h2 class="text-4xl font-bold text-ocean-deep mb-6">Alquiler de Equipo Profesional</h2>
+                        <p class="text-lg text-gray-700 mb-6">
+                            Bucea con la tranquilidad de saber que tu equipo está en perfectas condiciones. Trabajamos con marcas líderes como Scubapro y Aqualung, y nuestro material es revisado y mantenido diariamente por técnicos certificados.
+                        </p>
+                        <ul class="text-lg text-gray-800 space-y-2 mb-8">
+                            <li><strong>Equipo Completo (1 día):</strong> 30€</li>
+                            <li><strong>Ordenador de Buceo:</strong> 8€</li>
+                            <li><strong>Traje (5mm o 3mm):</strong> 7€</li>
+                            <li><strong>Foco / Linterna:</strong> 6€</li>
+                        </ul>
+                        <a href="contacto.html" class="bg-coral-red text-white py-3 px-6 rounded-md text-lg font-semibold hover:bg-red-700 transition duration-300">Reservar Equipo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-ocean-deep text-white">
+        <div class="container mx-auto px-6 py-12">
+            </div>
+    </footer>
+
+</body>
+</html>
