@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tienda de Buceo | Equipamiento y Merchandising | Buceo Javier</title>
+    <meta name="description" content="Visita la tienda de Buceo Javier. Encuentra equipamiento de buceo de primeras marcas, accesorios y merchandising exclusivo para recordar tu aventura en el Mar Rojo.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' }
+                }
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Catálogo de la Tienda Buceo Javier",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Ordenador de Buceo Suunto D5",
+            "image": "https://i.imgur.com/example-product1.jpg",
+            "description": "Un ordenador de buceo con pantalla a color, fácil de usar y con conectividad móvil.",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "EUR",
+              "price": "549.99",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Camiseta 'Buceo Javier'",
+            "image": "https://i.imgur.com/example-product2.jpg",
+            "description": "Camiseta de algodón orgánico con el logo de Buceo Javier. El recuerdo perfecto de tu aventura.",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "EUR",
+              "price": "25.00",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800">
+
+    <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-5 text-lg">
+                <div class="relative group">
+                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center">
+                        <span>Sobre Nosotros</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48 z-10">
+                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
+                        <a href="galeria.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Galería</a>
+                    </div>
+                </div>
+                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-coral-red font-semibold transition duration-300">Tienda</a>
+                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
+            </div>
+            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
+            <div class="lg:hidden"><button class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-ocean-deep py-16 text-white">
+             <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold">Nuestra Tienda</h1>
+                <p class="mt-4 text-xl max-w-3xl mx-auto">Equípate para tu próxima inmersión o llévate un recuerdo inolvidable de tu aventura con nosotros.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+
+                <h2 class="text-4xl font-bold text-ocean-deep mb-12">Equipamiento Principal</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/KqB5wPz.png" alt="Ordenador de buceo Suunto D5 con correa negra y pantalla a color." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Ordenador Suunto D5</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Pantalla a color y conectividad móvil.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">549,99€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/nJgqS1c.png" alt="Máscara de buceo negra de alta gama sin marco." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Máscara Scubapro Frameless</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Visión panorámica y máximo confort.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">95,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/0fLgY3r.png" alt="Par de aletas de buceo Scubapro Go Sport de color negro." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Aletas Scubapro Go Sport</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Ligeras, resistentes y perfectas para viajar.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">120,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/5D6R4Gq.png" alt="Set de regulador de buceo completo Aqualung Legend." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Regulador Aqualung Legend</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Rendimiento superior en aguas frías y cálidas.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">650,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h2 class="text-4xl font-bold text-ocean-deep mt-20 mb-12">Accesorios y Merchandising</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/y8J3t8T.png" alt="Camiseta de color azul marino con el logo de Buceo Javier en el pecho." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Camiseta 'Buceo Javier'</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Algodón orgánico suave y resistente.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">25,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/mZ9X8cR.png" alt="Gorra de béisbol negra con el logo de Buceo Javier bordado en blanco y rojo." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Gorra Bordada</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Protege del sol en el barco con estilo.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">20,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/a5r2z8Q.png" alt="Cuaderno de inmersiones (logbook) con una cubierta resistente al agua." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Logbook Personalizado</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Registra todas tus inmersiones en el Mar Rojo.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">18,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col text-center">
+                        <img src="https://i.imgur.com/GzB1b8o.png" alt="Toalla de microfibra de secado rápido con el logo de Buceo Javier." class="w-full h-64 object-contain bg-white p-4">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-xl font-bold text-ocean-deep">Toalla de Microfibra</h3>
+                            <p class="text-gray-600 my-2 flex-grow">Compacta, ligera y de secado ultrarrápido.</p>
+                            <p class="text-2xl font-bold text-coral-red mb-4">30,00€</p>
+                            <a href="contacto.html" class="mt-auto bg-ocean-light text-white py-2 px-4 rounded-md hover:bg-ocean-deep transition duration-300">Consultar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-ocean-deep text-white">
+        </footer>
+
+</body>
+</html>
