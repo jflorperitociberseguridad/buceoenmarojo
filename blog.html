@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog de Buceo en el Mar Rojo | Consejos y Artículos | Buceo Javier</title>
+    <meta name="description" content="El blog de Buceo Javier. Lee nuestros artículos sobre técnicas de buceo, vida marina del Mar Rojo, guías de pecios, consejos para tu viaje de vida a bordo y mucho más.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' }
+                }
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Blog de Buceo Javier",
+      "url": "https://www.buceojavier-example.com/blog.html",
+      "description": "Artículos, consejos y guías sobre el buceo en el Mar Rojo.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Buceo Javier"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Guía Definitiva para tu Primer Viaje de Vida a Bordo",
+          "author": {"@type": "Person", "name": "Javier G."},
+          "datePublished": "2025-06-15"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Los 5 Pecios que No Te Puedes Perder en el Norte del Mar Rojo",
+          "author": {"@type": "Person", "name": "Javier G."},
+          "datePublished": "2025-06-08"
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800">
+
+    <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-5 text-lg">
+                <div class="relative group">
+                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center">
+                        <span>Sobre Nosotros</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48 z-10">
+                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
+                        <a href="galeria.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Galería</a>
+                    </div>
+                </div>
+                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
+                <a href="blog.html" class="text-coral-red font-semibold transition duration-300">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
+            </div>
+            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
+            <div class="lg:hidden"><button class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-white py-16">
+             <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold text-ocean-deep">Nuestra Bitácora de Aventuras</h1>
+                <p class="mt-4 text-xl max-w-3xl mx-auto text-gray-600">Consejos, historias y guías para los apasionados del Mar Rojo, por nuestros propios instructores.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+
+                <article class="grid md:grid-cols-2 gap-8 lg:gap-12 items-center mb-20 bg-white p-8 rounded-lg shadow-lg">
+                    <a href="#" class="block overflow-hidden rounded-md">
+                        <img src="https://images.pexels.com/photos/164552/pexels-photo-164552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Grupo de buceadores relajándose en la cubierta de un barco de vida a bordo al atardecer." class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300">
+                    </a>
+                    <div>
+                        <span class="inline-block bg-coral-red text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">VIAJES</span>
+                        <h2 class="text-3xl lg:text-4xl font-bold text-ocean-deep mb-4"><a href="#" class="hover:text-coral-red">Guía Definitiva para tu Primer Viaje de Vida a Bordo</a></h2>
+                        <p class="text-gray-600 mb-4">¿Pensando en tu primer liveaboard? Te contamos todo lo que necesitas saber: qué empacar, cómo es un día típico en el barco, y consejos para aprovechar al máximo esta experiencia única.</p>
+                        <div class="text-sm text-gray-500">
+                            <span>Por Javier G.</span> &bull; <span>15 de Junio, 2025</span>
+                        </div>
+                        <a href="#" class="mt-6 inline-block text-coral-red font-semibold hover:underline">Leer Más &rarr;</a>
+                    </div>
+                </article>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/128106/pexels-photo-128106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Motocicletas en la bodega del pecio SS Thistlegorm." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">DESTINOS</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">Los 5 Pecios que No Te Puedes Perder en el Norte del Mar Rojo</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Fátima Al-Said &bull; 8 de Junio, 2025</p>
+                        </div>
+                    </article>
+                    
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/8134760/pexels-photo-8134760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceador en perfecta flotabilidad horizontal sobre un arrecife." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">TÉCNICA</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">Cómo Perfeccionar tu Flotabilidad: 5 Ejercicios Clave</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Javier G. &bull; 1 de Junio, 2025</p>
+                        </div>
+                    </article>
+                    
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/9000155/pexels-photo-9000155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Primer plano de un tiburón oceánico de puntas blancas (Longimanus)." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">VIDA MARINA</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">Identificando al Tiburón Oceánico de Puntas Blancas (Longimanus)</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Marco Rossi &bull; 25 de Mayo, 2025</p>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/8134731/pexels-photo-8134731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceador con una cámara de fotos submarina apuntando a un coral." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">FOTOGRAFÍA</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">Fotografía Submarina para Principiantes: Composición y Luz</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Fátima Al-Said &bull; 18 de Mayo, 2025</p>
+                        </div>
+                    </article>
+
+                     <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/1126938/pexels-photo-1126938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Fotografía macro de un nudibranquio de colores vivos sobre una esponja." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">VIDA MARINA</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">El Ecosistema Secreto de los Nudibranquios del Mar Rojo</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Javier G. &bull; 10 de Mayo, 2025</p>
+                        </div>
+                    </article>
+
+                     <article class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                        <a href="#"><img src="https://images.pexels.com/photos/7695427/pexels-photo-7695427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un buceador ilumina un coral con su linterna durante una inmersión nocturna." class="h-56 w-full object-cover transform hover:scale-105 transition-transform duration-300"></a>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <span class="text-sm font-semibold text-ocean-light mb-2">TÉCNICA</span>
+                            <h3 class="text-xl font-bold text-ocean-deep flex-grow"><a href="#" class="hover:text-coral-red">La Magia del Buceo Nocturno: Qué Esperar Ver en la Oscuridad</a></h3>
+                            <p class="text-sm text-gray-500 mt-4">Por Marco Rossi &bull; 2 de Mayo, 2025</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-ocean-deep text-white">
+        </footer>
+
+</body>
+</html>
