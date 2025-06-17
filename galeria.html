@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Galería de Fotos de Buceo en el Mar Rojo | Buceo Javier</title>
+    <meta name="description" content="Explora nuestra galería de fotos y sumérgete en la belleza del Mar Rojo. Imágenes de tiburones, tortugas, pecios, corales y la vida a bordo con Buceo Javier.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' }
+                }
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "Galería de Buceo en el Mar Rojo",
+      "description": "Una selección de las mejores fotografías de nuestras expediciones de buceo en el Mar Rojo.",
+      "mainEntityOfPage": "https://www.buceojavier-example.com/galeria.html"
+    }
+    </script>
+    
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800">
+
+    <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-5 text-lg">
+                <div class="relative group">
+                    <button class="text-coral-red font-semibold flex items-center">
+                        <span>Sobre Nosotros</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48 z-10">
+                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
+                        <a href="galeria.html" class="block px-4 py-2 text-sm text-coral-red font-semibold hover:bg-ocean-light">Galería</a>
+                    </div>
+                </div>
+                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
+                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
+            </div>
+            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
+            <div class="lg:hidden"><button class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-white py-16">
+             <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold text-ocean-deep">Galería de Nuestras Aventuras</h1>
+                <p class="mt-4 text-xl max-w-3xl mx-auto text-gray-600">Una imagen vale más que mil inmersiones. Sumérgete en nuestros mejores momentos.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/2418468/pexels-photo-2418468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Impresionante tiburón martillo nadando en el azul profundo del Mar Rojo." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Una tortuga marina verde nadando pacíficamente sobre un arrecife de coral." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group md:col-span-1 md:row-span-2">
+                        <a href="#"><img src="https://images.pexels.com/photos/128106/pexels-photo-128106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Vista interior de la bodega del pecio SS Thistlegorm con las motocicletas de la Segunda Guerra Mundial." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/166543/pexels-photo-166543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un delfín curioso nadando cerca de la superficie en aguas cristalinas." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/1077755/pexels-photo-1077755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pez payaso resguardado en su anémona en un arrecife del Mar Rojo." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group col-span-2">
+                        <a href="#"><img src="https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Un enorme y denso banco de peces plateados nadando en formación sobre el arrecife." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/7695423/pexels-photo-7695423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Buceador guiando a un grupo a través de un cañón de coral." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/9000155/pexels-photo-9000155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tiburón oceánico de puntas blancas (Longimanus) patrullando el arrecife." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/164552/pexels-photo-164552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="El barco de vida a bordo 'El Odiseo' anclado en aguas turquesas." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/2290647/pexels-photo-2290647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Una majestuosa manta raya planeando sobre el fondo arenoso." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/1126938/pexels-photo-1126938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Fotografía macro de un nudibranquio de colores intensos." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                     <div class="overflow-hidden rounded-lg shadow-lg group">
+                        <a href="#"><img src="https://images.pexels.com/photos/2285495/pexels-photo-2285495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Atardecer en el Mar Rojo visto desde la cubierta del barco." class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-ocean-deep text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div><h3 class="text-xl font-bold mb-4">Buceo <span class="text-coral-red">Javier</span></h3><p class="text-gray-400">Tu aventura en el Mar Rojo. Compromiso con la seguridad, la excelencia y la conservación marina.</p></div>
+                <div><h3 class="text-xl font-bold mb-4">Navegación</h3><ul class="space-y-2 text-sm"><li><a href="que-hacemos.html" class="hover:text-coral-red transition duration-300">Qué hacemos</a></li><li><a href="viajes.html" class="hover:text-coral-red transition duration-300">Nuestros Viajes</a></li><li><a href="zonas-de-buceo.html" class="hover:text-coral-red transition duration-300">Zonas de Buceo</a></li><li><a href="blog.html" class="hover:text-coral-red transition duration-300">Blog</a></li></ul></div>
+                <div><h3 class="text-xl font-bold mb-4">Soporte</h3><ul class="space-y-2 text-sm"><li><a href="contacto.html" class="hover:text-coral-red transition duration-300">Contacto</a></li><li><a href="testimonios.html" class="hover:text-coral-red transition duration-300">Testimonios</a></li><li><a href="#" class="hover:text-coral-red transition duration-300">FAQ</a></li></ul></div>
+                <div><h3 class="text-xl font-bold mb-4">Contacto</h3><p class="text-gray-400">Naama Bay, Sharm El Sheikh, Egipto</p><p class="text-gray-400">Email: contacto@buceojavier-example.com</p><p class="text-gray-400">Teléfono: +20 123 456 7890</p></div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500"><p>© 2025 Buceo Javier. Creado con pasión por el océano.</p></div>
+        </div>
+    </footer>
+
+</body>
+</html>
