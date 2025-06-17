@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Guía Definitiva para tu Primer Viaje de Vida a Bordo",
+    "fecha": "2025-06-15",
+    "contenido": "Te contamos todo lo que necesitas saber: qué empacar, cómo es un día típico en el barco, y consejos para aprovechar al máximo esta experiencia única.",
+    "imagen": "https://images.pexels.com/photos/164552/pexels-photo-164552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "titulo": "Los 5 Pecios que No Te Puedes Perder en el Norte",
+    "fecha": "2025-06-08",
+    "contenido": "El Mar Rojo es un cementerio de barcos legendarios. Te presentamos nuestra selección de los 5 pecios que todo buceador debería explorar al menos una vez.",
+    "imagen": "https://images.pexels.com/photos/128106/pexels-photo-128106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "titulo": "Cómo Perfeccionar tu Flotabilidad: 5 Ejercicios Clave",
+    "fecha": "2025-06-01",
+    "contenido": "Controlar tu flotabilidad es la diferencia entre un buen buceador y un gran buceador. Ahorrarás aire, protegerás el arrecife y disfrutarás más. Te enseñamos cómo.",
+    "imagen": "https://images.pexels.com/photos/8134760/pexels-photo-8134760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  }
+]
