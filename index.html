@@ -3,114 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Buceo Javier | Cursos y Viajes de Buceo en el Mar Rojo</title>
     <meta name="description" content="Explora el Mar Rojo con Buceo Javier. Cursos PADI, viajes de vida a bordo inolvidables y la mejor experiencia de buceo en Egipto.">
-    <meta name="keywords" content="buceo javier, buceo mar rojo, cursos padi egipto, vida a bordo mar rojo, viajes de buceo, tienda de buceo">
+    <meta name="keywords" content="buceo javier, buceo mar rojo, cursos padi egipto, vida a bordo mar rojo, viajes de buceo">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
-                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' },
-                    zIndex: { '999': 999 } // Añadimos un z-index alto para el popup
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'ocean-deep': '#001F3F',
+                        'ocean-light': '#007BFF',
+                        'coral-red': '#FF4136',
+                        'sand': '#F4A261',
+                    }
                 }
             }
         }
     </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "Buceo Javier",
+      "description": "Centro de buceo premium en Sharm El Sheikh, especializado en cursos PADI y viajes de vida a bordo en el Mar Rojo.",
+      "url": "https://www.buceojavier-example.com",
+      "telephone": "+20 123 456 7890",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Naama Bay",
+        "addressLocality": "Sharm El Sheikh",
+        "addressCountry": "EG"
+      },
+      "image": "https://images.pexels.com/photos/167698/pexels-photo-167698.jpeg",
+      "priceRange": "$$$"
+    }
+    </script>
+
     <style>
         html { scroll-behavior: smooth; }
-        .swiper-button-next, .swiper-button-prev { color: #ffffff !important; background-color: rgba(0, 0, 0, 0.3); border-radius: 50%; width: 44px !important; height: 44px !important; }
-        .swiper-button-next:after, .swiper-button-prev:after { font-size: 1.5rem !important; font-weight: bold; }
+        /* Estilos para las flechas de navegación del slider */
+        .swiper-button-next, .swiper-button-prev {
+            color: #ffffff !important;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            width: 44px !important;
+            height: 44px !important;
+        }
+        .swiper-button-next:after, .swiper-button-prev:after {
+            font-size: 1.5rem !important;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body class="bg-gray-50 font-inter text-gray-800">
 
     <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
-        </header>
-    <main>
-        </main>
-    <footer class="bg-ocean-deep text-white">
-        </footer>
-
-    <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-[999] transition-opacity duration-300">
-        <div id="popup-content" class="bg-white rounded-lg shadow-2xl p-8 max-w-md w-11/12 transform scale-95 transition-transform duration-300 relative">
-            <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-            </button>
-            
-            <h2 class="text-2xl font-bold text-ocean-deep mb-4">¡Únete a la Aventura!</h2>
-            <p class="text-gray-600 mb-6">Suscríbete a nuestro boletín y sé el primero en recibir ofertas exclusivas, noticias sobre nuestros próximos viajes y artículos del blog.</p>
-            
-            <form action="#" method="POST">
-                <div class="mb-4">
-                    <label for="popup-email" class="block text-gray-700 text-sm font-bold mb-2">Correo Electrónico:</label>
-                    <input type="email" id="popup-email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="tu.email@ejemplo.com" required>
-                </div>
-                <button type="submit" class="w-full bg-coral-red text-white font-bold py-2 px-4 rounded hover:bg-red-700 transition duration-300">
-                    ¡Quiero Suscribirme!
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-6 text-lg">
+                <a href="que-hacemos.html" class="text-white hover:text-coral-red transition duration-300">Qué hacemos</a>
+                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300">Zonas de Buceo</a>
+                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
+            </div>
+            <div class="hidden lg:flex">
+                <a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a>
+            </div>
+            <div class="lg:hidden">
+                <button class="text-white focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                 </button>
-            </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="relative h-[70vh] w-full">
+            <div class="swiper hero-slider h-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide relative">
+                        <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Tortuga marina nadando grácilmente sobre un arrecife de coral en el Mar Rojo.">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
+                            <h1 class="text-5xl md:text-6xl font-bold text-center leading-tight">Vive la Magia del Mar Rojo</h1>
+                            <p class="mt-4 text-xl md:text-2xl text-center">Inmersiones que recordarás toda la vida.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img src="https://images.pexels.com/photos/1077755/pexels-photo-1077755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Pez payaso anidando en una anémona colorida, una imagen icónica del buceo.">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
+                            <h1 class="text-5xl md:text-6xl font-bold text-center leading-tight">Descubre un Universo de Color</h1>
+                            <p class="mt-4 text-xl md:text-2xl text-center">Los arrecifes más vibrantes del mundo te esperan.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img src="https://images.pexels.com/photos/3052725/pexels-photo-3052725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Grupo de buceadores descendiendo en una pared de coral azul profundo.">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
+                            <h1 class="text-5xl md:text-6xl font-bold text-center leading-tight">Aventura en Cada Inmersión</h1>
+                            <p class="mt-4 text-xl md:text-2xl text-center">Explora pecios históricos y paredes vertiginosas.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide relative">
+                        <img src="https://images.pexels.com/photos/2285495/pexels-photo-2285495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-full h-full object-cover" alt="Barco de vida a bordo anclado al atardecer en una bahía tranquila del Mar Rojo.">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white p-4">
+                            <h1 class="text-5xl md:text-6xl font-bold text-center leading-tight">Tu Hogar en el Mar</h1>
+                            <p class="mt-4 text-xl md:text-2xl text-center">Nuestros viajes de vida a bordo te llevan más lejos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-ocean-deep mb-4">Bienvenido a Buceo Javier</h2>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600">
+                    Con más de 15 años de experiencia guiando a buceadores por las maravillas del Mar Rojo, somos tu puerta de entrada a los arrecifes de coral más impresionantes del planeta. Desde los legendarios pecios del norte hasta los santuarios de tiburones del sur, te llevamos más allá de lo convencional.
+                </p>
+            </div>
+        </section>
+        
+        </main>
+
+    <footer class="bg-ocean-deep text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Buceo <span class="text-coral-red">Javier</span></h3>
+                    <p class="text-gray-400">Tu aventura en el Mar Rojo. Compromiso con la seguridad, la excelencia y la conservación marina.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Navegación</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="que-hacemos.html" class="hover:text-coral-red transition duration-300">Qué hacemos</a></li>
+                        <li><a href="viajes.html" class="hover:text-coral-red transition duration-300">Nuestros Viajes</a></li>
+                        <li><a href="zonas-de-buceo.html" class="hover:text-coral-red transition duration-300">Zonas de Buceo</a></li>
+                        <li><a href="blog.html" class="hover:text-coral-red transition duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Soporte</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="contacto.html" class="hover:text-coral-red transition duration-300">Contacto</a></li>
+                        <li><a href="testimonios.html" class="hover:text-coral-red transition duration-300">Testimonios</a></li>
+                        <li><a href="#" class="hover:text-coral-red transition duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contacto</h3>
+                    <p class="text-gray-400">Naama Bay, Sharm El Sheikh, Egipto</p>
+                    <p class="text-gray-400">Email: contacto@buceojavier-example.com</p>
+                    <p class="text-gray-400">Teléfono: +20 123 456 7890</p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500">
+                <p>&copy; 2025 Buceo Javier. Creado con pasión por el océano.</p>
+            </div>
         </div>
-    </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.hero-slider', { /* ... configuración del slider ... */ });
-    </script>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const popupOverlay = document.getElementById('popup-overlay');
-            const popupContent = document.getElementById('popup-content');
-            const closePopupButton = document.getElementById('close-popup');
-            const body = document.querySelector('body'); // Seleccionamos el body
+        const swiper = new Swiper('.hero-slider', {
+            // Parámetros opcionales
+            loop: true,
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
 
-            // Función para mostrar el popup
-            const showPopup = () => {
-                popupOverlay.classList.remove('hidden');
-                popupOverlay.classList.add('flex');
-                body.style.overflow = 'hidden'; // Evita el scroll del fondo cuando el popup está abierto
-                setTimeout(() => {
-                    popupOverlay.classList.add('opacity-100');
-                    popupContent.classList.remove('scale-95');
-                    popupContent.classList.add('scale-100');
-                }, 10);
-            };
+            // Paginación (puntos)
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
 
-            // Función para cerrar el popup
-            const closePopup = () => {
-                popupOverlay.classList.remove('opacity-100');
-                popupContent.classList.remove('scale-100');
-                popupContent.classList.add('scale-95');
-                body.style.overflow = 'auto'; // Restaura el scroll del fondo
-                setTimeout(() => {
-                    popupOverlay.classList.add('hidden');
-                    popupOverlay.classList.remove('flex');
-                }, 300); 
-            };
-
-            // Mostrar el popup después de 5 segundos
-            setTimeout(showPopup, 5000);
-
-            // Eventos de cierre
-            closePopupButton.addEventListener('click', closePopup);
-            popupOverlay.addEventListener('click', (event) => {
-                if (event.target === popupOverlay) {
-                    closePopup();
-                }
-            });
-
-            // Cerrar con la tecla 'Escape'
-            document.addEventListener('keydown', (event) => {
-                if (event.key === 'Escape' && !popupOverlay.classList.contains('hidden')) {
-                    closePopup();
-                }
-            });
+            // Botones de navegación (flechas)
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '..swiper-button-prev',
+            },
         });
     </script>
 </body>
