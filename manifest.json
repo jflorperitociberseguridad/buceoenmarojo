@@ -1,0 +1,20 @@
+{
+    "short_name": "Buceo Javier",
+    "name": "Buceo Javier - Aventuras en el Mar Rojo",
+    "icons": [
+        {
+            "src": "/img/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#001F3F",
+    "background_color": "#ffffff"
+}
