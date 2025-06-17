@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Guía de 8 Zonas de Buceo Clave en el Mar Rojo | Buceo Javier</title>
-    <meta name="description" content="Una guía de buceo completa con mapas de 8 zonas icónicas del Mar Rojo: Thistlegorm, Ras Mohammed, Brothers, Tirán, Daedalus, Elphinstone, Abu Nuhas y Dolphin House.">
+    <title>Guía de 8 Zonas de Buceo con Mapas y Coordenadas | Buceo Javier</title>
+    <meta name="description" content="Una guía de buceo completa con mapas y coordenadas de 8 zonas icónicas del Mar Rojo: Thistlegorm, Ras Mohammed, Brothers, Tirán, Daedalus, Elphinstone, Abu Nuhas y Dolphin House.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,17 +26,17 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Guía de 8 Zonas de Buceo Esenciales en el Mar Rojo",
-      "description": "Una guía detallada con mapas de los puntos de inmersión más espectaculares del Mar Rojo, presentada por Buceo Javier.",
+      "name": "Guía de 8 Zonas de Buceo Esenciales en el Mar Rojo con Coordenadas",
+      "description": "Una guía detallada con mapas y coordenadas de los puntos de inmersión más espectaculares del Mar Rojo, presentada por Buceo Javier.",
       "hasPart": [
-        { "@type": "TouristAttraction", "name": "Pecio SS Thistlegorm" },
-        { "@type": "TouristAttraction", "name": "Parque Nacional Ras Mohammed" },
-        { "@type": "TouristAttraction", "name": "Islas Brothers" },
-        { "@type": "TouristAttraction", "name": "Estrechos de Tirán" },
-        { "@type": "TouristAttraction", "name": "Arrecife Daedalus" },
-        { "@type": "TouristAttraction", "name": "Arrecife Elphinstone" },
-        { "@type": "TouristAttraction", "name": "Abu Nuhas" },
-        { "@type": "TouristAttraction", "name": "Dolphin House (Sha'ab Samadai)" }
+        { "@type": "TouristAttraction", "name": "Pecio SS Thistlegorm", "geo": { "@type": "GeoCoordinates", "latitude": "27.8125", "longitude": "33.9189" }},
+        { "@type": "TouristAttraction", "name": "Parque Nacional Ras Mohammed", "geo": { "@type": "GeoCoordinates", "latitude": "27.7194", "longitude": "34.2597" }},
+        { "@type": "TouristAttraction", "name": "Islas Brothers", "geo": { "@type": "GeoCoordinates", "latitude": "26.3100", "longitude": "34.8500" }},
+        { "@type": "TouristAttraction", "name": "Estrechos de Tirán", "geo": { "@type": "GeoCoordinates", "latitude": "28.0167", "longitude": "34.4667" }},
+        { "@type": "TouristAttraction", "name": "Arrecife Daedalus", "geo": { "@type": "GeoCoordinates", "latitude": "24.9083", "longitude": "35.8583" }},
+        { "@type": "TouristAttraction", "name": "Arrecife Elphinstone", "geo": { "@type": "GeoCoordinates", "latitude": "25.3100", "longitude": "34.8600" }},
+        { "@type": "TouristAttraction", "name": "Abu Nuhas", "geo": { "@type": "GeoCoordinates", "latitude": "27.5750", "longitude": "33.9250" }},
+        { "@type": "TouristAttraction", "name": "Dolphin House (Sha'ab Samadai)", "geo": { "@type": "GeoCoordinates", "latitude": "24.9833", "longitude": "34.9983" }}
       ]
     }
     </script>
@@ -48,38 +48,13 @@
 <body class="bg-gray-50 font-inter text-gray-800">
 
     <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
-        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="index.html" class="text-white text-3xl font-bold">
-                Buceo <span class="text-coral-red">Javier</span>
-            </a>
-            <div class="hidden lg:flex items-center space-x-5 text-lg">
-                <div class="relative group">
-                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center">
-                        <span>Sobre Nosotros</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md mt-2 py-2 w-48 z-10">
-                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
-                        <a href="galeria.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Galería</a>
-                    </div>
-                </div>
-                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300">Servicios</a>
-                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300">Viajes</a>
-                <a href="zonas-de-buceo.html" class="text-coral-red font-semibold transition duration-300">Zonas de Buceo</a>
-                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300">Tienda</a>
-                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300">Blog</a>
-                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300">Contacto</a>
-            </div>
-            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
-            <div class="lg:hidden"><button class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
-        </nav>
-    </header>
+        </header>
 
     <main>
         <section class="bg-ocean-deep py-16 text-white">
              <div class="container mx-auto px-6 text-center">
                 <h1 class="text-5xl font-bold">Guía de Zonas de Buceo del Mar Rojo</h1>
-                <p class="mt-4 text-xl max-w-3xl mx-auto">Tu bitácora de exploración. Descubre con nuestros mapas y guías los tesoros mejor guardados de Egipto.</p>
+                <p class="mt-4 text-xl max-w-3xl mx-auto">Tu bitácora de exploración. Descubre con nuestros mapas, guías y coordenadas los tesoros mejor guardados de Egipto.</p>
             </div>
         </section>
 
@@ -90,7 +65,10 @@
                     <div><img src="https://i.imgur.com/8a6Y02H.png" alt="Mapa estilizado del pecio SS Thistlegorm, mostrando la proa, popa y la carga en sus bodegas." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div>
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">1. Pecio SS Thistlegorm</h2>
-                        <p class="text-gray-700">Un auténtico museo submarino de la II Guerra Mundial. Este carguero británico yace a 30m de profundidad con sus bodegas intactas, repletas de camiones, motocicletas, rifles y locomotoras que nunca llegaron a su destino.</p>
+                        <p class="text-gray-700 mb-4">Un auténtico museo submarino de la II Guerra Mundial. Este carguero británico yace a 30m de profundidad con sus bodegas intactas, repletas de camiones, motocicletas, rifles y locomotoras.</p>
+                        <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 27.81° N, 33.92° E <a href="https://www.google.com/maps?q=27.8125,33.9189" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -98,15 +76,21 @@
                     <div class="md:order-2"><img src="https://i.imgur.com/wV2eY2b.png" alt="Mapa del arrecife de Shark y Yolanda en Ras Mohammed, mostrando las corrientes y puntos clave." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div class="md:order-1">
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">2. P.N. Ras Mohammed</h2>
-                        <p class="text-gray-700">El primer parque nacional de Egipto es un hervidero de vida. Sus paredes verticales, como las de Shark & Yolanda Reef, son famosas por los enormes bancos de peces que se congregan en verano y sus jardines de coral únicos.</p>
+                        <p class="text-gray-700 mb-4">El primer parque nacional de Egipto es un hervidero de vida. Sus paredes verticales, como las de Shark & Yolanda Reef, son famosas por los enormes bancos de peces que se congregan en verano.</p>
+                        <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 27.72° N, 34.26° E <a href="https://www.google.com/maps?q=27.7194,34.2597" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
-
+                
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div><img src="https://i.imgur.com/oNq1JqZ.png" alt="Mapa de las Islas Brothers, Big y Small, destacando las paredes abruptas y zonas de avistamiento de tiburones." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div>
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">3. Islas Brothers</h2>
-                        <p class="text-gray-700">Dos conos volcánicos en mar abierto, un imán para la vida pelágica. Sus paredes, cubiertas de corales de colores, son patrulladas por tiburones oceánicos (Longimanus), martillos y grises. Un destino top para buceadores experimentados.</p>
+                        <p class="text-gray-700 mb-4">Dos conos volcánicos en mar abierto, un imán para la vida pelágica. Sus paredes, cubiertas de corales de colores, son patrulladas por tiburones oceánicos (Longimanus), martillos y grises.</p>
+                        <ul class="space-y-2 text-gray-800">
+                           <li><strong class="text-ocean-light">Ubicación:</strong> 26.31° N, 34.85° E <a href="https://www.google.com/maps?q=26.3100,34.8500" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -114,7 +98,10 @@
                     <div class="md:order-2"><img src="https://i.imgur.com/dK0T4vT.png" alt="Mapa de los cuatro arrecifes en los Estrechos de Tirán: Jackson, Woodhouse, Thomas y Gordon." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div class="md:order-1">
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">4. Estrechos de Tirán</h2>
-                        <p class="text-gray-700">Famosos por sus cuatro arrecifes (Jackson, Woodhouse, Thomas y Gordon), ofrecen espectaculares inmersiones a la deriva. Las corrientes nutren jardines de coral impresionantes y atraen a tortugas, rayas águila y, con suerte, tiburones martillo.</p>
+                        <p class="text-gray-700 mb-4">Famosos por sus cuatro arrecifes (Jackson, Woodhouse, Thomas y Gordon), ofrecen espectaculares inmersiones a la deriva, atrayendo a tortugas y rayas águila a sus ricos jardines de coral.</p>
+                        <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 28.01° N, 34.46° E <a href="https://www.google.com/maps?q=28.0167,34.4667" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -122,7 +109,10 @@
                     <div><img src="https://i.imgur.com/L7p2ZkU.png" alt="Mapa del Arrecife Daedalus, con su faro y las zonas donde se congregan los tiburones martillo." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div>
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">5. Arrecife Daedalus</h2>
-                        <p class="text-gray-700">Un enorme arrecife circular en medio del mar, reconocible por su icónico faro. Es uno de los mejores lugares del mundo para avistar bancos de tiburones martillo, especialmente en los meses de verano. Sus paredes norte están llenas de vida.</p>
+                        <p class="text-gray-700 mb-4">Un enorme arrecife circular en medio del mar, reconocible por su icónico faro. Es uno de los mejores lugares del mundo para avistar bancos de tiburones martillo, especialmente en los meses de verano.</p>
+                         <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 24.91° N, 35.86° E <a href="https://www.google.com/maps?q=24.9083,35.8583" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
                 
@@ -130,7 +120,10 @@
                     <div class="md:order-2"><img src="https://i.imgur.com/rB0uG2w.png" alt="Mapa del arrecife Elphinstone, con su forma alargada y sus famosas mesetas norte y sur." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div class="md:order-1">
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">6. Arrecife Elphinstone</h2>
-                        <p class="text-gray-700">Un legendario arrecife con forma de puro, famoso por sus impresionantes paredes y sus impredecibles corrientes. Las mesetas en sus extremos norte y sur son el lugar perfecto para encuentros cercanos con tiburones oceánicos de puntas blancas.</p>
+                        <p class="text-gray-700 mb-4">Un legendario arrecife con forma de puro, famoso por sus impresionantes paredes y sus impredecibles corrientes. Las mesetas en sus extremos son el lugar perfecto para encuentros con tiburones oceánicos.</p>
+                         <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 25.31° N, 34.86° E <a href="https://www.google.com/maps?q=25.3100,34.8600" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -138,7 +131,10 @@
                     <div><img src="https://i.imgur.com/cE5rVvH.png" alt="Mapa de Abu Nuhas, el 'cementerio de barcos', mostrando la ubicación de pecios como el Giannis D y el Carnatic." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div>
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">7. Abu Nuhas</h2>
-                        <p class="text-gray-700">Conocido como el "Cementerio de Barcos", este arrecife es un paraíso para los amantes de los pecios. Alberga al menos cuatro cargueros hundidos a poca profundidad, como el Giannis D, el Carnatic y el Chrisoula K, cada uno con su propia historia y encanto.</p>
+                        <p class="text-gray-700 mb-4">Conocido como el "Cementerio de Barcos", este arrecife es un paraíso para los amantes de los pecios. Alberga al menos cuatro cargueros hundidos a poca profundidad, como el Giannis D, el Carnatic y el Chrisoula K.</p>
+                         <ul class="space-y-2 text-gray-800">
+                            <li><strong class="text-ocean-light">Ubicación:</strong> 27.57° N, 33.92° E <a href="https://www.google.com/maps?q=27.5750,33.9250" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -146,19 +142,19 @@
                     <div class="md:order-2"><img src="https://i.imgur.com/G9F1W9x.png" alt="Mapa del arrecife Sha'ab Samadai (Dolphin House) con su forma de herradura y la zona de protección de delfines." class="rounded-lg shadow-xl border-4 border-gray-200"></div>
                     <div class="md:order-1">
                         <h2 class="text-3xl font-bold text-ocean-deep mb-4">8. Dolphin House (Sha'ab Samadai)</h2>
-                        <p class="text-gray-700">Un espectacular arrecife en forma de herradura que es el hogar permanente de una gran familia de delfines tornillo. Es una zona protegida donde se puede nadar y bucear con estos inteligentes mamíferos en su hábitat natural. Una experiencia mágica.</p>
+                        <p class="text-gray-700 mb-4">Un espectacular arrecife en forma de herradura que es el hogar de una gran familia de delfines tornillo. Es una zona protegida donde se puede nadar y bucear con estos inteligentes mamíferos en su hábitat natural.</p>
+                         <ul class="space-y-2 text-gray-800">
+                           <li><strong class="text-ocean-light">Ubicación:</strong> 24.98° N, 34.99° E <a href="https://www.google.com/maps?q=24.9833,34.9983" target="_blank" class="text-coral-red hover:underline ml-2 font-semibold">(Ver en mapa)</a></li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
         </section>
-
     </main>
     
     <footer class="bg-ocean-deep text-white">
-        <div class="container mx-auto px-6 py-12">
-            </div>
-    </footer>
+        </footer>
 
 </body>
 </html>
