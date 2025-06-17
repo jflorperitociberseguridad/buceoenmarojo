@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://jflorperitociberseguridad.github.io/buceoenmarojo/sitemap.xml
