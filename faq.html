@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes (FAQ) | Buceo en el Mar Rojo | Buceo Javier</title>
+    <meta name="description" content="Encuentra respuestas a las preguntas más frecuentes sobre nuestros viajes de buceo en el Mar Rojo: seguros, equipamiento, visados, moneda, seguridad y mucho más.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'inter': ['Inter', 'sans-serif'] },
+                    colors: { 'ocean-deep': '#001F3F', 'ocean-light': '#007BFF', 'coral-red': '#FF4136', 'sand': '#F4A261' }
+                }
+            }
+        }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "¿Necesito un seguro de buceo para viajar con vosotros?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí, es absolutamente obligatorio. Todos nuestros buceadores deben tener un seguro específico que cubra accidentes de buceo, incluyendo tratamiento en cámara hiperbárica. Es por tu seguridad y tranquilidad. Podemos recomendarte varias opciones si no tienes uno." }
+      },{
+        "@type": "Question",
+        "name": "¿Qué temperatura tiene el agua en el Mar Rojo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "La temperatura del agua varía según la estación. En invierno (diciembre-febrero) puede bajar hasta los 21-22°C, por lo que se recomienda un traje de 7mm. En verano (junio-septiembre) el agua es muy cálida, entre 28-30°C, y un traje de 3mm o incluso un shorty es suficiente." }
+      },{
+        "@type": "Question",
+        "name": "¿Qué moneda debo llevar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "La moneda oficial es la Libra Egipcia (EGP). Sin embargo, a bordo y en la mayoría de los sitios turísticos se aceptan Euros (EUR) y Dólares Americanos (USD) para el pago de extras como bebidas alcohólicas, propinas para la tripulación o alquiler de equipo especial. Recomendamos llevar algo de efectivo en Euros o Dólares." }
+      },{
+        "@type": "Question",
+        "name": "¿Qué está incluido en el precio de un viaje de vida a bordo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Generalmente incluye: traslados desde el aeropuerto, alojamiento en camarote doble, pensión completa (todas las comidas), agua, té, café y refrescos, de 3 a 4 inmersiones diarias (según ruta), botella, plomos y guía de buceo. No suele incluir: vuelos, visado, tasas de parque marino, alquiler de equipo, Nitrox (a menos que se especifique), bebidas alcohólicas y propinas." }
+      },{
+        "@type": "Question",
+        "name": "¿Puedo viajar solo/a?",
+        "acceptedAnswer": { "@type": "Answer", "text": "¡Por supuesto! Muchos de nuestros clientes viajan solos. Si no hay disponibilidad de un camarote individual, te asignaremos un compañero de camarote de tu mismo sexo. Es una forma genial de conocer a otros buceadores apasionados como tú." }
+      }]
+    }
+    </script>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800">
+
+    <header class="bg-ocean-deep shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold">
+                Buceo <span class="text-coral-red">Javier</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-5 text-lg">
+                <div class="relative group">
+                    <button class="text-white hover:text-coral-red transition duration-300 flex items-center py-2">
+                        <span>Sobre Nosotros</span>
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block bg-ocean-deep shadow-lg rounded-md py-2 w-48 z-10">
+                        <a href="que-hacemos.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Qué hacemos</a>
+                        <a href="galeria.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Galería</a>
+                        <a href="testimonios.html" class="block px-4 py-2 text-sm text-white hover:bg-ocean-light">Testimonios</a>
+                    </div>
+                </div>
+                <a href="servicios.html" class="text-white hover:text-coral-red transition duration-300 py-2">Servicios</a>
+                <a href="viajes.html" class="text-white hover:text-coral-red transition duration-300 py-2">Viajes</a>
+                <a href="zonas-de-buceo.html" class="text-white hover:text-coral-red transition duration-300 py-2">Zonas de Buceo</a>
+                <a href="tienda.html" class="text-white hover:text-coral-red transition duration-300 py-2">Tienda</a>
+                <a href="blog.html" class="text-white hover:text-coral-red transition duration-300 py-2">Blog</a>
+                <a href="contacto.html" class="text-white hover:text-coral-red transition duration-300 py-2">Contacto</a>
+            </div>
+            <div class="hidden lg:flex"><a href="login.html" class="bg-coral-red text-white py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 text-lg">Login</a></div>
+            <div class="lg:hidden"><button id="mobile-menu-button" class="text-white focus:outline-none"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button></div>
+        </nav>
+        <div id="mobile-menu" class="hidden lg:hidden">
+            <a href="que-hacemos.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Sobre Nosotros</a>
+            <a href="servicios.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Servicios</a>
+            <a href="viajes.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Viajes</a>
+            <a href="zonas-de-buceo.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Zonas de Buceo</a>
+            <a href="tienda.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Tienda</a>
+            <a href="blog.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Blog</a>
+            <a href="contacto.html" class="block text-white text-center text-lg py-3 hover:bg-ocean-light">Contacto</a>
+            <a href="login.html" class="block text-white text-center text-lg py-3 bg-coral-red hover:bg-red-700">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-white py-16">
+             <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold text-ocean-deep">Preguntas Frecuentes</h1>
+                <p class="mt-4 text-xl max-w-3xl mx-auto text-gray-600">Resolvemos tus dudas más comunes para que solo te preocupes de disfrutar de la aventura.</p>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6 max-w-4xl space-y-16">
+                
+                <div>
+                    <h2 class="text-3xl font-bold text-ocean-deep flex items-center mb-6">
+                        <svg class="w-8 h-8 mr-3 text-coral-red" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        Sobre los Viajes y la Vida a Bordo
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> </div>
+                </div>
+
+                <div>
+                    <h2 class="text-3xl font-bold text-ocean-deep flex items-center mb-6">
+                        <svg class="w-8 h-8 mr-3 text-coral-red" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.49l-1.955 5.272l-6.174 2.131l-6.174-2.131l-1.955-5.272a1.002 1.002 0 011.195-1.238l6.174 2.131l6.174-2.131a1.002 1.002 0 011.195 1.238z"></path></svg>
+                        Sobre el Buceo y la Seguridad
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> </div>
+                </div>
+
+                <div>
+                    <h2 class="text-3xl font-bold text-ocean-deep flex items-center mb-6">
+                         <svg class="w-8 h-8 mr-3 text-coral-red" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01M12 6v-1m0-1V4m0 2.01v.01M12 14v4m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M12 14c1.657 0 3-.895 3-2s-1.343-2-3-2-3-.895-3-2 1.343-2 3-2m0 8c-1.11 0-2.08.402-2.599-1"></path></svg>
+                        Logística y Preparación
+                    </h2>
+                     <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> <div class="bg-white p-6 rounded-lg shadow-md faq-item">...</div> </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-ocean-deep text-white">
+        <div class="container mx-auto px-6 py-12">
+            </div>
+    </footer>
+
+    <script>
+        // Script para la funcionalidad del acordeón de FAQ
+        document.querySelectorAll('.faq-item').forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+            const arrow = question.querySelector('span');
+
+            question.addEventListener('click', () => {
+                // Cerrar otros acordeones abiertos en la misma categoría
+                const parentCategory = item.closest('.space-y-4');
+                parentCategory.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        const otherAnswer = otherItem.querySelector('.faq-answer');
+                        const otherArrow = otherItem.querySelector('.faq-question span');
+                        otherAnswer.style.maxHeight = null;
+                        otherArrow.style.transform = 'rotate(0deg)';
+                    }
+                });
+
+                // Abrir/Cerrar el actual
+                if (answer.style.maxHeight) {
+                    answer.style.maxHeight = null;
+                    arrow.style.transform = 'rotate(0deg)';
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    arrow.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
