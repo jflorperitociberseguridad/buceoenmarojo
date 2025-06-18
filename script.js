@@ -1,4 +1,4 @@
-// ================== script.js ==================
+// ================== script.js (ACTUALIZADO) ==================
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -8,11 +8,22 @@ document.addEventListener('DOMContentLoaded', () => {
         loadBlogPosts();
     }
 
-    // (Aquí se podría añadir el código para el menú hamburguesa móvil en el futuro)
+    // ============== CÓDIGO AÑADIDO PARA EL MENÚ HAMBURGUESA ==============
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            // La función toggle('hidden') añade la clase si no está, y la quita si ya está.
+            // Es la forma más sencilla de mostrar/ocultar un elemento.
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+    // =======================================================================
 
 });
 
-// Función para cargar los artículos del blog desde blog.json
+// Función para cargar los artículos del blog desde blog.json (SIN CAMBIOS)
 async function loadBlogPosts() {
     try {
         const response = await fetch('blog.json');
@@ -28,7 +39,7 @@ async function loadBlogPosts() {
     }
 }
 
-// Función para mostrar los artículos en la página
+// Función para mostrar los artículos en la página (SIN CAMBIOS)
 function displayBlogPosts(posts) {
     const blogContainer = document.getElementById('blog-container');
     blogContainer.innerHTML = ''; // Limpiar el contenedor
